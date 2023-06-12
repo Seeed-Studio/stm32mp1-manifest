@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin"
+          fetch="https://github.com/Seeed-Studio" />
+
+  <default remote="origin"
+           revision="master"
+           sync-j="4" />
+
+  <project name="st-arm-trusted-firmware" revision="v2.6-stm32mp-odyssey" path="st-arm-trusted-firmware" groups="stm32mp1" />
+  <project name="st-optee_os" revision="3.16.0-stm32mp-odyssey" path="st-optee_os" groups="stm32mp1" />
+  <project name="st-u-boot" revision="v2021.10-stm32mp-odyssey" path="st-u-boot" groups="stm32mp1" />
+  <project name="st-linux" revision="v5.15-stm32mp-odyssey" path="st-linux" groups="stm32mp1" />
+</manifest>
